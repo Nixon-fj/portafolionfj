@@ -19,7 +19,7 @@
 </template>
 
 <script>
-  import MenuComponent from '@/components/menu.vue'
+  import MenuComponent from './menu.vue'
 
   export default {
     name: "HeaderComponent",
