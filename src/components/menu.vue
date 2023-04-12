@@ -16,24 +16,12 @@ export default {
       isActive: false,
       routes: [
         {
-          route      :  'Sports',
-          name       :  'Sports'
+          route      :  '/',
+          name       :  'Home'
         },
         {
-          route      :  'Live-Wagering',
-          name       :  'Live Wagering'
-        },
-        {
-          route      :  'Casino',
-          name       :  'Casino'
-        },
-        {
-          route      :  'Props-Builder',
-          name       :  'Props Builder'
-        },
-        {
-          route      :  'Racebook',
-          name       :  'Racebook'
+          route      :  'portafolio',
+          name       :  'Portafolio'
         },
       ]
     };

@@ -24,64 +24,34 @@
       return {
         routes: [
           {
-            route      :  'Sports',
-            name       : 'Sportsbook'
+            route      :  'nixon.fernandezjimenez@gmail.com',
+            name       : 'Email'
           },
           {
-            route      :  'racebook',
-            name       : 'Racebook'
+            route      :  'https://www.linkedin.com/in/enrique-jos%C3%A9-estrada-n%C3%BA%C3%B1ez-85610657/',
+            name       : 'Linkedln'
           },
           {
-            route      :  'live-betting',
-            name       : 'Live Betting'
+            route      :  'https://github.com/Nixon-fj',
+            name       : 'Github'
           },
           {
-            route      :  'casino',
-            name       : 'casino'
-          },
-          {
-            route      :  'House-rules',
-            name       : 'House rules'
-          },
-          {
-            route      :  'sport-rules',
-            name       : 'sport rules'
-          },
-          {
-            route      :  'horse-tracks',
-            name       : 'horse tracks'
+            route      :  'CodePen',
+            name       : 'https://codepen.io/nixon-fj'
           }
         ],
         options:[
           {
-            route 	   : 'Sports',
-            img        :  require('../assets/images/icons/sports.svg'),
-            alt        :  'sportsbook',
-            name       :  'SPORTS'
+            route 	   : '/',
+            img        :  require('../assets/images/icon.svg'),
+            alt        :  'home',
+            name       :  'HOME'
           },
           {
-            route 	   : 'live-betting',
-            img        :  require('../assets/images/icons/live.svg'),
-            alt        :  'live betting',
-            name       :  'LIVE BETTING'
-          },
-          {
-            route 	   : 'casino',
-            img        :  require('../assets/images/icons/casino.svg'),
-            alt        :  'casino',
-            name       :  'CASINO'
-          },
-          {
-            route 	   : 'props-builder',
-            img        :  require('../assets/images/icons/icon-props.svg'),
-            alt        :  'props builder',
-            name       :  'PROPS BUILDER'
-          },
-          {
-            route 	   : 'racebook',
-            img        :  require('../assets/images/icons/racebook.svg'),
-            alt        :  'racebook',
-            name       :  'RACEBOOK'
+            route 	   : 'portafolio',
+            img        :  require('../assets/images/icon.svg'),
+            alt        :  'portafolio',
+            name       :  'PORTAFOLIO'
           }
         ]
       }
