@@ -4,7 +4,7 @@
       <div class="header-content__nav">
         <a href="/" class="a-logocontainer">
           <div class="logo-container">
-            <img src="../assets/images/home/logo.svg" alt="Flowers" width="100%" height="auto">
+            <img src="../assets/images/logo.svg" alt="Flowers" width="100%" height="auto">
           </div>
         </a>
         <menu-component/>
