@@ -1,0 +1,55 @@
+
+.primary-button {
+  width: 250px;
+  color: $primary-text-color;
+  display: flex;
+  padding: 12px 8px;
+  font-weight: bold;
+  border-radius: 5px;
+  align-items: center;
+  text-decoration: none;
+  justify-content: center;
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  transition: 0.1s ease-in;
+  border: none;
+
+  &__classic {
+    margin: 1rem 0;
+    background-color: $seventh-color;
+  }
+
+  &__new {
+    background-color: $eighth-color;
+
+  }
+}
+
+.secondary-button {
+  color: $primary-text-color;
+  display: flex;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  justify-content: center;
+  text-transform: uppercase;
+  transition: 0.1s ease-in;
+  font-size: 13px;
+
+  @media (min-width: 600px) {
+    font-size: 16px;
+  }
+
+  &__classic {
+    background-color: $fifth-color;
+    color: $sixth-color;
+  }
+
+  &__betslip {
+    background-color: $fifth-color;
+    color: $sixth-color;
+  }
+}
